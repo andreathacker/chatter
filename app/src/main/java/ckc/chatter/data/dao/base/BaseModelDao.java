@@ -20,6 +20,10 @@ public abstract class BaseModelDao<T extends SugarRecord<?>> {
 
     protected List<T> modelList = new ArrayList<T>();
 
+    public List<T> getModelList(){
+        return modelList;
+    }
+
     /**
      * Clear the cache of models from this DAO
      */
