@@ -14,8 +14,7 @@ import ckc.chatter.R;
 public class ChatFragment extends Fragment {
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.chat_fragment, container, false);
         return rootView;
     }
